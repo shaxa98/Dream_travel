@@ -2,7 +2,7 @@
 
 :root {
   --main-color: #0fa5fc;
-  --black: #222;
+  --black: #131313;
   --white: #222;
   --white: #fff;
   --light-black: #777;
@@ -101,7 +101,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: var(--white);
+  background-color: rgb(255, 255, 255);
   display: flex;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -287,6 +287,9 @@ section {
   border: var(--border);
   box-shadow: var(--box-shadow);
   background: var(--white);
+}
+.content-001 {
+  color: #ff0000;
 }
 
 .home-packages .box-container .box .image {
